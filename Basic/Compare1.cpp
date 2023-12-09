@@ -11,8 +11,6 @@ void positive_negative_zero(int number){
     }else{
          cout<< "Number is Zero";
     }
-    
-    
 }
 
 int main(){
