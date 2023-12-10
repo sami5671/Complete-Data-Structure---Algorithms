@@ -5,7 +5,6 @@ int primeNumber(int n){
     int div = 2;
     for (int i = div; i <=n/2; i++)
     {
-       
         
         if (n % i == 0)
         {

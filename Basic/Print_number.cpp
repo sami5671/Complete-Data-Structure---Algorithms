@@ -11,7 +11,6 @@ void printNumber(int number){
     {
         cout<< i << " ";
     }
-    
 }
 int main(){
 
