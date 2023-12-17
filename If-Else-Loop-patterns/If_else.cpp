@@ -22,7 +22,6 @@ int main(){
         cout<< "Positive number"<< endl;
     }
     
-    
     return 0;
 
 }
