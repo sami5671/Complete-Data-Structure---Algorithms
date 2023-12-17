@@ -11,6 +11,5 @@ int main(){
         cout<< a << " ";
         a++;
     }
-
     return 0;
 }
