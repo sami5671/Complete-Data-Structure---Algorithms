@@ -1,5 +1,4 @@
 // print 1 to n sum of even numbers
-
 #include<iostream>
 using namespace std;
 
