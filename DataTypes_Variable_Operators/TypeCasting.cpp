@@ -5,7 +5,6 @@ int main(){
 
     float result = 90.0/4; 
     cout << result << endl;//this is typeCast to float
-
-
+    
     return 0;
 }
