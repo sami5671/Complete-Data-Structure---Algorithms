@@ -4,23 +4,23 @@ int main(){
 
     int n;
     cout<< "Enter the number: ";
-    cin >> n;
+    cin>>n;
 
     int row = 1;
-    
+    char start  = 'A';
     while (row<=n)
     {
         int col = 1;
-        while (col <= n)
+        while (col<=n)
         {
-            char ch = 'A' + row - 1 ;
-            cout << ch << " ";
+            cout << start << " ";
+            start++;
             col++;
         }
         cout<< endl;
         row++;
-        
     }
     
+
     return 0;
 }
