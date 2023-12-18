@@ -16,7 +16,5 @@ int main(){
         cout<< "Number is negative"<< endl;
     }
     
-
-
     return 0;
 }
