@@ -20,6 +20,5 @@ int main(){
        cout<< endl;
        row++;
     }
-
     getch();
 }
