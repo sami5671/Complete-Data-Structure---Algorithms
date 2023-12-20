@@ -10,11 +10,13 @@ int main(){
     while (row<=n)
     {
         int col = 1;
+        char start = 'A'+ n - row;
         while (col<=row)
         {
-            char ch = 'A' + row + col - 2;
-            cout<< ch << " ";
+            cout<< start << " ";
+            start++;
             col++;
+           
         }
         cout<< endl;
         row++;
