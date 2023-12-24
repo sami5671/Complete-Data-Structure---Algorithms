@@ -7,22 +7,22 @@ int main(){
     cin >> n;
 
     int row = 1;
+     int num = 1;
     while (row<=n)
     {
-        int space = row - 1;
+        int space = n - row;
         while (space)
         {
             cout<< "  ";
             space--;
         }
         int col = 1;
-        int start = n-row+1;
-        int count = row;
-        while (col<=start)
+       
+        while (col<=row)
         {
-           cout<< count << " ";
+           cout<< num << " ";
            col++;
-           count++;
+           num++;
         }
         cout<< endl;
         row++;
