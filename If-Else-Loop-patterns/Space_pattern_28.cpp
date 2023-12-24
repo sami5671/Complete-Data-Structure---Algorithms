@@ -6,22 +6,23 @@ int main(){
     cout<<"Enter the number: ";
     cin >> n;
 
-
     int row = 1;
     while (row<=n)
     {
-        int space = row - 1;
+        int space = row -1;
         while (space)
         {
             cout<< " ";
             space--;
         }
         int col = 1;
-        int start = n - row + 1;
+        int start = n-row+1;
+        int count = row;
         while (col<=start)
         {
-           cout<< row;
+           cout<< count;
            col++;
+           count++;
         }
         cout<< endl;
         row++;

@@ -6,19 +6,18 @@ int main(){
     cout<<"Enter the number: ";
     cin >> n;
 
-
     int row = 1;
     while (row<=n)
     {
-        int space = row - 1;
+        int space = n - row;
         while (space)
         {
             cout<< " ";
             space--;
         }
         int col = 1;
-        int start = n - row + 1;
-        while (col<=start)
+        int start = row;
+        while (col<=row)
         {
            cout<< row;
            col++;
