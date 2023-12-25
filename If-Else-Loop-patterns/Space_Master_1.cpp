@@ -1,4 +1,3 @@
-
 #include<iostream>
 using namespace std;
 
@@ -14,7 +13,7 @@ int main(){
     // first triangle
     int col  = 1;
     int start = n - row + 1;
-    while (col<=start)
+    while (col <= start)
     {
        cout<< col << " ";
        col++;
