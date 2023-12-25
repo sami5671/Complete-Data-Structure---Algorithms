@@ -7,6 +7,7 @@ int main(){
     cin >> n;
     bool isPrime = 1;
 
+
     for (int i = 2; i < n; i++)
     {
        if (n%2 == 0)
@@ -17,7 +18,8 @@ int main(){
        }
        
     }
-    
+
+
     if (isPrime == 1)
     {
         cout<< n << " Number is prime"<<endl;
