@@ -17,6 +17,5 @@ int main(){
     cout<< "Right shift of 2 time: " << (n>>2)<<endl;
 
 
-
     return 0;
 }

@@ -14,7 +14,7 @@ int main(){
         int digit = x % 10;
         ans = (ans*10) + digit;
         x = x / 10;
-      
+    
     }
     
 cout << ans << endl;
