@@ -11,13 +11,9 @@ void initialize_Array(){
     {
        cout<< arr[i] << " ";
     }
-    
 }
 //================================================================
-
-
 int main(){
-    
 
     initialize_Array();
 

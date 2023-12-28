@@ -17,7 +17,6 @@ bool isPrime(int x){
 }
 // =================================================================
 
-
 int main(){
     int number;
     cout<< "Enter the number for checking the number is prime is not: ";
