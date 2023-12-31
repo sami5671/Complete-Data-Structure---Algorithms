@@ -3,4 +3,5 @@
 3. Linear Search 
 4. Reverse An Array 
 5. Swap Alternate
-6. 
+6. Find Uniqu Occurances (https://leetcode.com/problems/unique-number-of-occurrences/description/)
+7. 
