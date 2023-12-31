@@ -1,0 +1,34 @@
+1. Add two Number
+2. Simple Interest
+3. Modulas Remainder
+4. Even Or Odd 
+5. Check Positive, Negative, Zero
+6. Check A,B,C which is big
+7. Print Number 1 to N
+8. Print Even Number (1 & n) Exclusive
+9. Print Odd Number (1 & n) Exclusive
+10. Find Sum from 1 to n
+11. Find N!
+12. Check n is prime or not
+13. Prime Number or not
+14. Sum Of even 
+15. sum of odd
+16. Triangle or not
+17. Digit or Uppercase or Lowercase 
+18. Farenheit to celcius
+19. Fibonnacci print n
+20. Bit Count 
+21. Check the number is Power of two or not
+22. Decimal to binary
+23. Binary to Decimal
+24. Reverse A digit
+25. Mini Calculator
+26. nCr 
+27. Note Counting 
+28. Total set bit of two numbers (a,b)
+29. Full Array Initialize with one digit ()
+30. Max Min In an arary ()
+
+
+
+

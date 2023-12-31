@@ -1,0 +1,6 @@
+1. Array Initilize with one digit
+2. Max & Min 
+3. Linear Search 
+4. Reverse An Array 
+5. Swap Alternate
+6. 
