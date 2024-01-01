@@ -14,7 +14,6 @@ int FindDuplicate(int arr[], int size){
         ans = ans^i;
     }
     return ans;
-
 }
 
 int main(){
@@ -29,9 +28,8 @@ int main(){
         cin >> arr[i];
     }
     
-
-  int result =  FindDuplicate(arr, n);
-  cout<< result << endl;
+    int result =  FindDuplicate(arr, n);
+    cout<< result << endl;
 
     return 0;
 }
