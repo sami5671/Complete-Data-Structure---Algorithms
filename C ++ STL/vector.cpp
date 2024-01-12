@@ -69,7 +69,7 @@ int main(){
 // {10, 20, 30, 40, 50, 60, 70, 80}
     for (auto i: vec1)
     {
-       cout << i << " ";
+    //    cout << i << " ";
     }
     cout<< endl;
 
@@ -77,9 +77,49 @@ int main(){
 
     for (auto i: vec1)
     {
-        cout << i << " ";
+        // cout << i << " ";
     }
     
+
+    // insert 
+    vector<int> n(2, 100);
+    n.insert(n.begin(), 300);
+    n.insert(n.begin() + 1, 5,10 );
+
+    for (auto i: n)
+    {
+        // cout<< i << " ";
+    }
+    cout<< endl;
+
+    vector<int> copy(2,50);
+    n.insert(n.end(), copy.begin(), copy.end());
+
+     for (auto i: n)
+    {
+        // cout<< i << " ";
+    }
+
+    cout<< n.size() << endl;
+    n.pop_back();
+
+  for (auto i: n)
+    {
+        // cout<< i << " ";
+    }
+
+        cout<< n.size() << endl;
+
+
+// v1 -> {10, 20}
+//  v2 -> {30, 40}
+
+// v1.swap(v2);  v1-> {30, 40} , v2-> {10,20}
+        n.clear();
+
+        cout << n.size() << endl;
+
+        cout<< n.empty();  // 1-> false, 0-> true
 
     return 0;
 }
