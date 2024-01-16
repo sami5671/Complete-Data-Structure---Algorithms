@@ -16,6 +16,6 @@ int main(){
         b = next;
         
     }
-     cout<< b << " ";
+    cout<< b << " ";
     return 0;
 }

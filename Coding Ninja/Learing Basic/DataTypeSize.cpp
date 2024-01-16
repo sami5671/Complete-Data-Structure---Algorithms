@@ -27,7 +27,7 @@ int main(){
     string str;
     cin>> str;
 
-   int size =  dataTypes(str);
+    int size =  dataTypes(str);
     cout << size << endl;
     return 0;
 }
