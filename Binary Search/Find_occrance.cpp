@@ -1,56 +1,65 @@
 // find first and last occurrence 
-int firstOccurrence(int arr[], int size, int key){
 
-    int start = 0, end = size-1;
-    int ans = -1;
+int firstOccurrence(int arr[], int size, int  key){
 
-    while (start <= end)
-    {
+  int start = 0;
+  int end = size - 1;
+  int ans = -1;
 
-       int mid = start + (end-start)/2;
+  int mid = start + (end - start)/2;
 
-       if (arr[mid] == key)
-       {
-         ans = mid;
-         end = mid -1;
-       }
-       else if (key > arr[mid])
-       {
-         start = mid + 1;
-       }else if (key < arr[mid])
-       {
-         end = mid - 1;
-       }
-       
-    }
-    return ans;
+  while (start <= end)
+  {
+     if (arr[mid] == key) 
+     {
+        ans = mid;
+        end = mid -1; // then after it will check left in the array
+     }
+     else if (arr[mid] < key) 
+     {
+       start = mid + 1; // it will change the value of start = mid + 1, will check right of the array
+     }
+     else if (arr[mid] > key)
+     {
+       end = mid - 1; // it will change the value of end = mid - 1, will check left of the array
+     }
+
+     mid = start + (end - start)/2;
+  }
+  return ans;
+
 }
-int lastOccurrence(int arr[], int size, int key){
 
-    int start = 0, end = size-1;
-    int ans = -1;
+int lastOccurrence(int arr[], int size, int  key){
 
-    while (start <= end)
-    {
+  int start = 0;
+  int end = size - 1;
+  int ans = -1;
 
-       int mid = start + (end-start)/2;
+  int mid = start + (end - start)/2;
 
-       if (arr[mid] == key)
-       {
-         ans = mid;
-         start = mid + 1;
-       }
-       else if (key > arr[mid])
-       {
-         start = mid + 1;
-       }else if (key < arr[mid])
-       {
-         end = mid - 1;
-       }
-       
-    }
-    return ans;
+  while (start <= end)
+  {
+     if (arr[mid] == key) 
+     {
+        ans = mid;
+        start  = mid + 1;  // then after it will check  right the array
+     }
+     else if (arr[mid] < key) 
+     {
+       start = mid + 1; // it will change the value of start = mid + 1, will check right of the array
+     }
+     else if (arr[mid] > key)
+     {
+       end = mid - 1; // it will change the value of end = mid - 1, will check left of the array
+     }
+
+     mid = start + (end - start)/2;
+  }
+  return ans;
+
 }
+
 
 #include<bits/stdc++.h>
 using namespace std;
