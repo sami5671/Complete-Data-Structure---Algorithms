@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int selection_Sort(int arr[], int size){
+void selection_Sort(int arr[], int size){
      
    for (int i = 0; i < size-1; i++)
    {
@@ -13,7 +13,6 @@ int selection_Sort(int arr[], int size){
           {
              min = j;
           }
-          
        }
        swap(arr[min], arr[i]);
    }
@@ -21,7 +20,7 @@ int selection_Sort(int arr[], int size){
 }
 
 void display_sorted_array(int arr[], int size){
-    
+
     cout<< "Sorted Array is: ";
 
     for (int i = 0; i < size; i++)
@@ -36,6 +35,5 @@ int main(){
     int arr[6] = {11,5,4,3,12,6};
     selection_Sort(arr, 6);
     display_sorted_array(arr, 6);
-  
-    
+
 }
