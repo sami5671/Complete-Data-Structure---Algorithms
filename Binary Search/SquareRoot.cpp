@@ -27,7 +27,6 @@ int squareRoot(int x){
         s = mid + 1;
         }
 
-      
       mid = s + (e - s ) / 2;
     }
     return ans;

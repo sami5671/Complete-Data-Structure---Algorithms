@@ -29,7 +29,6 @@ void display_sorted_array(int arr[], int size){
     }
 }
 
-
 int main(){
 
     int arr[6] = {11,5,4,3,12,6};
