@@ -19,5 +19,27 @@ int main(){
 
     cout<< "Size: " << v.size() << endl;
     cout<< "Value in Index 2 is: "<< v.at(2) << endl;
+    cout<< "First element: "<< v.front()<< endl;
+    cout<< "Last element: "<< v.back()<< endl;
+
+    cout<< "Before Pop: "<< endl;
+    for (int i:v)
+    {
+        cout<< i << " ";
+    }
+    cout << endl;
+
+    v.pop_back();
+
+    cout<< "After Pop: "<< endl;
+     for (int i:v)
+    {
+        cout<< i << " ";
+    }
+    cout << endl;
+
+    
+
+
 
 }
