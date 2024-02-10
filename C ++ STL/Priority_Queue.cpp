@@ -40,6 +40,8 @@ int main(){
         cout<< mini.top()<< " ";
         mini.pop();
     }
-    return 0;
+    
+    cout << "Mini is Empty Or Not: "<< mini.empty() << endl;
 
+    return 0;
 }
