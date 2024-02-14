@@ -16,8 +16,6 @@ int move_array(int arr[], int n){
           i--;
        }
     }
-
-   
 }
 
 void print_array(int arr[], int n){
