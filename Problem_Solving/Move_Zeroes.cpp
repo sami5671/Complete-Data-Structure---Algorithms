@@ -1,3 +1,5 @@
+// move zeros in the right 
+
 #include<bits/stdc++.h>
 #include<iostream>
 using namespace std;
@@ -15,9 +17,8 @@ int move_array(int arr[], int n){
        }
        
     }
-    
- 
-    
+
+   
 }
 
 void print_array(int arr[], int n){

@@ -46,9 +46,5 @@ cout << "Printing from 2 to End: ";
        cout << (*i).first << " ";
     }
     
-    
-
-
-    
     return 0;
 }
