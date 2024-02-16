@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+
+int add_Array(int A[], int B[], int n, int m) {
+
+
+}
+
+int main(){
+    
+
+    int A[4] = {1,2,3,4};
+    int B[1] = {6};
+
+    return 0;
+}

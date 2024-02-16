@@ -19,14 +19,14 @@ int rotate_array(int arr[], int temp[], int k, int n){
     }
 
 
-void print_array(int arr[], int n){
+    void print_array(int arr[], int n){
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
+        for (int i = 0; i < n; i++)
+        {
+            cout << arr[i] << " ";
+        }
+        
     }
-    
-}
 
 
 int main(){
