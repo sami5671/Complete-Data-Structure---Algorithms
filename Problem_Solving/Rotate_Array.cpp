@@ -16,10 +16,11 @@ int rotate_array(int arr[], int temp[], int k, int n){
         {
         arr[i] = temp[i];
         }
-    }
+        
+}
 
 
-    void print_array(int arr[], int n){
+void print_array(int arr[], int n){
 
         for (int i = 0; i < n; i++)
         {
@@ -35,7 +36,7 @@ int main(){
     int temp [4] ={0};
     int key = 2;
 
-    rotate_array(arr,temp, key, 4);
+    rotate_array(arr, temp, key, 4);
     print_array(arr, 4);
 
 
