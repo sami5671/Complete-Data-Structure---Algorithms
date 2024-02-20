@@ -1,6 +1,7 @@
 1. Add two Number
 2. Simple Interest
 3. Modulas Remainder
+* Reverse a number 
 4. Even Or Odd 
 5. Check Positive, Negative, Zero
 6. Check A,B,C which is big
@@ -28,7 +29,3 @@
 28. Total set bit of two numbers (a,b)
 29. Full Array Initialize with one digit ()
 30. Max Min In an arary ()
-
-
-
-

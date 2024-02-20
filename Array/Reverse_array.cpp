@@ -19,7 +19,6 @@ int PrintArray(int arr[], int size){
     {
        cout<< arr[i]<<" ";
     }
-    
 }
 // main function
 int main(){
