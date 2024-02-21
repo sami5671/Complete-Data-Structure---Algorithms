@@ -29,6 +29,25 @@ int MIN(int arr[], int n){
     return min;
 }
 
+
+
+// we can first sort the arrays then the 1st element would be the minimum value and the last element would be the maximum value
+// void Bubble_Sort(int arr[], int size){
+//      for (int i = 0; i < size; i++)
+//      {
+//         for (int j = 0; j < size -1; j++)
+//         {
+//             if (arr[j] > arr[j + 1])
+//             {
+//                 swap(arr[j], arr[j + 1]);
+//             }
+//         }
+//      }
+
+//      cout << "MIN: "<< arr[0] << endl;
+//      cout << "MAX: "<< arr[size - 1] << endl;
+// }
+
 void print_array(int arr[], int n){
 
   
@@ -53,7 +72,11 @@ int main(){
 
     cout << "Max: " << MAX(arr, size) << endl;
     cout << "Min: " << MIN(arr, size) << endl;
+
+    // Bubble_Sort(arr, size);
+  
     
+
 
     return 0;
 
