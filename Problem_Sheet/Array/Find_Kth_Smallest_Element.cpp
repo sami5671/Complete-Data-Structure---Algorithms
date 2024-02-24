@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
 
+
 int kthSmallest(int arr[], int s, int e, int key)
     {
-        for(int i = s; i <= e; i++){
+        for(int i = s; i < e; i++){
 
             for(int j = s; j < e -1; j++){
                 
@@ -25,6 +26,7 @@ int kthSmallest(int arr[], int s, int e, int key)
     // find the kTh smallest element
     int result = arr[key-1];
     return result;
+    
 }
 
 
@@ -38,7 +40,6 @@ int main(){
 
     int result =  kthSmallest(arr, start, end, key);
     cout << "Kth-->> " << key << " smallest Element is: " << result << endl; 
-
 
     return 0;
 }
