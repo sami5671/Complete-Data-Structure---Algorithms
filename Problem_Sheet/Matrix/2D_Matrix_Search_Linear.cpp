@@ -30,6 +30,25 @@ void print_array(int arr[][100], int row_size, int column_size){
     }
 }
 
+int* Linear_Search_Find_Index(int arr[][100], int row_size, int col_size, int search_Value){
+
+    static int result[2] = {-1, -1}; // Initialize with invalid indices
+
+    for (int i = 0; i < row_size; i++)
+    {
+        for (int j = 0; j < col_size; j++)
+        {
+            if (arr[i][j] == search_Value)
+            {
+                result[0] = i;
+                result[1] = j;
+                return result;
+            }
+        }
+    }
+    return result;
+}
+
 int main(){
     
    int arr[100][100] = {
@@ -45,7 +64,9 @@ int main(){
 
     // finding the search value
 
-    if ( Linear_Search(arr, 4, 3, 100))
+
+
+    if ( Linear_Search(arr, 4, 3, 12))
     {
        cout << "Search value Found" << endl;
     }
@@ -53,6 +74,8 @@ int main(){
         cout << "Not Found" << endl;
     }
     
+    int* result =  Linear_Search_Find_Index(arr, 4, 3, 12);
+    cout << "Search value Found At Index: [" << result[0] << "][" << result[1] << "]" << endl;
 
 
     return 0;
