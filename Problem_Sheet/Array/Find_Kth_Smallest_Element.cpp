@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 int kthSmallest(int arr[], int s, int e, int key)
     {
         for(int i = s; i < e; i++){
@@ -28,7 +27,6 @@ int kthSmallest(int arr[], int s, int e, int key)
     return result;
     
 }
-
 
 int main(){
 
