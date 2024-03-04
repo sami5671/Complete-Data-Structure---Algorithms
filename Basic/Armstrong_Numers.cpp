@@ -21,17 +21,21 @@ int count_digit(int n){
 bool check_Armstrong(int n){
 
     int sumOfPower = 0;
+    int original_number = n;
     int count = count_digit(n);
 
         while (n > 0)
         {
             int digit = n % 10;
+            sumOfPower =  sumOfPower + pow(digit, count);
             n = n / 10;
-            sumOfPower = sumOfPower + pow(digit, count);
         }
 
 
-    if (sumOfPower == n)
+cout << sumOfPower << endl;
+
+
+    if (sumOfPower == original_number)
     {
         return true;
     }else{
@@ -51,10 +55,11 @@ int main(){
     {
        cout<< "Armstrong Number" << endl;
     }else{
-         cout<< "Not Armstrong Number" << endl;
+       cout<< "Not Armstrong Number" << endl;
     }
     
 
 
     return 0;
 }
+
