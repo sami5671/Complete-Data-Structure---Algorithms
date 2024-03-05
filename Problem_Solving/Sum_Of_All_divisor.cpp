@@ -1,11 +1,10 @@
 #include<iostream>
 using namespace std;
 
-
-
 int Print_divisor_sum(int number){
 
 int sum = 0;
+
 
     for (int i = 1; i <= number; i++)
     {

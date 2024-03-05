@@ -38,7 +38,5 @@ int main(){
        Print_divisor(n);
     }
     
-    
-
     return 0;
 }
