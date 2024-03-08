@@ -1,0 +1,1 @@
+  print_Number_Linearly(n-1);
