@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 void print_Number(int n){
 
     if (n < 1)

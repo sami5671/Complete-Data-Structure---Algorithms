@@ -6,7 +6,7 @@ int print_sum(int n){
     
 
     // base condition
-
+    
     if (n < 1)
     {
         return 0;
