@@ -1,4 +1,8 @@
 // find first and last occurrence 
+                            
+#include<bits/stdc++.h>
+using namespace std;
+
 
 int firstOccurrence(int arr[], int size, int  key){
 
@@ -61,8 +65,7 @@ int lastOccurrence(int arr[], int size, int  key){
 }
 
 
-#include<bits/stdc++.h>
-using namespace std;
+
 
 
 int main(){

@@ -1,0 +1,51 @@
+Basic difference between c and c++
+
+1. File Extention: C---> main.c
+		   C++--> main.cpp
+
+2. We can run C code in C++ code but cannot run C++ in C code 
+
+
+#include<stdio.h>
+
+int main(){
+	
+	int n;
+	n = "sami";
+
+}
+
+
+int = 10^9 ---> %d
+float --> %f
+double ---> %lf
+
+long long int = 10^18 ---> %lld
+long double = 10^18  ----> %lf
+char
+
+char[] = character array
+string (is not data type)
+
+stl--> stack , queue , pririty queue 
+vector, list, dequeue, set, pair , multiset, map, unorded map , itarator
+
+
+
+
+
+
+
+
+
+
+
+1. compile time error and run time error
+
+
+
+
+
+
+
+

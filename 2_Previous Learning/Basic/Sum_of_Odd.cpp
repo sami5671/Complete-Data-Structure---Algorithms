@@ -13,6 +13,7 @@ int printSumOdd(int number){
     }
     return sum;
 }
+
 int main(){
 
     int n;
