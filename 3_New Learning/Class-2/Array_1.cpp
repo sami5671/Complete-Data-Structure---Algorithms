@@ -1,5 +1,3 @@
-
-
 #include <bits/stdc++.h>
 #define ll                  long long
 #define dd                  double
@@ -67,12 +65,20 @@ int main() {
         scl(right);
         ll sum = 0;
 
+        // constraints check if user give left value bigger than right
+        if(left > right){
+            int temp  = left;
+            left = right;
+            right = temp;
+        }
+
+
         for(int i = left; i<= right; i++){
 
             sum = sum + arr[i];
         }
 
-        printf("%d\n", sum);
+        printf("Sum is: %d\n" , sum);
     }
 
 }
