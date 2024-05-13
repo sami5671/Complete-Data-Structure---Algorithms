@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,3 +36,43 @@ using namespace std;
 #define base1               1000002089
 #define base2               1000003853
 #define hashmod             1000002989
+
+
+int main(){
+
+    char s1[] = "sami";
+    char s2[] = "alam";
+
+    //strcat(s1, s2);
+
+    int len = strlen(s1);
+
+    printf("%s\n", s1);
+
+    printf("Length: %d\n", len);
+
+
+    int vowel_cnt = 0;
+
+    for(int i = 0; i < len; i++){
+
+        if(s1[i] == 'a' || s1[i] == 'e' || s1[i] == 'i' || s1[i] == 'o' || s1[i] == 'u'){
+
+            vowel_cnt++;
+        }
+    }
+
+    printf("Vowel: %d", vowel_cnt);
+}
+
+
+
+
+
+
+
+
+
+
+
+

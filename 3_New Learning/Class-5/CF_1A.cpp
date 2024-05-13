@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,3 +36,36 @@ using namespace std;
 #define base1               1000002089
 #define base2               1000003853
 #define hashmod             1000002989
+
+
+int main(){
+
+    ll n, m, a, x, y, ans;
+
+    scl(n);
+    scl(m);
+    scl(a);
+
+    if(n%a == 0)
+        x = n/a;
+    else
+        x = (n/a) + 1;
+
+    if(m%a == 0)
+        y = m/a;
+    else
+        y = (m/a) + 1;
+
+
+    printf("%lld\n", x*y);
+
+}
+
+
+
+
+
+
+
+
+
