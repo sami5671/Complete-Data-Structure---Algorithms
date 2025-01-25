@@ -1,37 +1,48 @@
-#include <bits/stdc++.h> 
+//{ Driver Code Starts
+#include <bits/stdc++.h>
 using namespace std;
 
 
-int sum_of_divisors(int num){
+// } Driver Code Ends
 
-    int sum = 0;
-    for (int i = 1; i <= num; i++)
-    {
-        if (num % i == 0)
-        {
-            sum = sum + i;
+class Solution {
+  public:
+    int reverseExponentiation(int n) {
+        // code here
+        int revNumber = 0;
+        int lastDigit, result;
+        int originalNumber = n;
+        
+        if(n >= 1 && n <= 10){
+            while(n != 0){
+            lastDigit = n % 10;
+            n = n / 10;
+            revNumber = (revNumber * 10) + lastDigit;
         }
+        // find power of own reverse
+         result = pow(originalNumber, revNumber);
+        }else{
+            return 0;
+        }
+        return result;
     }
-    return sum;
-}
+};
 
-int sum_of_all_divisors(int n){
-    int total_sum = 0;
+//{ Driver Code Starts.
 
-    for (int i = 0; i <= n; i++)
-    {
-        total_sum = total_sum + sum_of_divisors(i);
+int main() {
+    int T;
+    cin >> T; // test cases
+
+    while (T--) {
+        int n;
+        cin >> n; // input N
+
+        Solution ob;
+        // power of the number to its reverse
+        int ans = ob.reverseExponentiation(n);
+        cout << ans << endl;
     }
-    return total_sum;
-}
-
-int main(){ 
-
-    int n;
-    cin>> n;
-    
-    int result = sum_of_all_divisors(n);
-    cout<<result<<endl;
 
     return 0;
 }

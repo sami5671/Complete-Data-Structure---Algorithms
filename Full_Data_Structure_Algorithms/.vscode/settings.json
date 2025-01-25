@@ -6,6 +6,7 @@
     "*.erd": "json",
     "*.vuerd": "json",
     "iostream": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "random": "cpp"
   }
 }

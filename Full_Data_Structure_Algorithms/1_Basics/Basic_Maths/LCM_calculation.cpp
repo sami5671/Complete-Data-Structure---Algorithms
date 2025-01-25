@@ -29,7 +29,6 @@ vector<int> LCM_find(int n1, int n2){
     vector<int> lcm;
     vector<int> gcd_result = find_gcd(n1, n2);
     int gcd = gcd_result[0];
-
     lcm = {(n1*n2) / gcd};
 
     return lcm;
