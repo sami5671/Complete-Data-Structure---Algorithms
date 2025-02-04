@@ -1,6 +1,7 @@
 #include <bits/stdc++.h> 
 using namespace std;
 
+// backtracking and sum
 void print_sum(int i, int sum){
     // base condition
     if(i < 1){
